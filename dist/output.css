@@ -521,9 +521,9 @@ video {
   padding-left: 16px;
 }
 
-@media (min-width: 480px) {
+@media (min-width: 414px) {
   .container {
-    max-width: 480px;
+    max-width: 414px;
   }
 }
 
@@ -994,6 +994,11 @@ video {
   line-height: 1.75rem;
 }
 
+.text-5xl {
+  font-size: 3rem;
+  line-height: 1;
+}
+
 .font-bold {
   font-weight: 700;
 }
@@ -1169,13 +1174,18 @@ video {
   color: rgb(249 115 22 / var(--tw-text-opacity));
 }
 
-@media (min-width: 480px) {
+@media (min-width: 414px) {
   .sm\:top-52 {
     top: 13rem;
   }
 
   .sm\:left-10 {
     left: 2.5rem;
+  }
+
+  .sm\:text-5xl {
+    font-size: 3rem;
+    line-height: 1;
   }
 }
 

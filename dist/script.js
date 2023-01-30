@@ -28,13 +28,13 @@ navMenu.classList.toggle('hidden');
  });
 
 //  klik di luar hamburger
-window.addEventListener('click', function(e){
-    if(e.target != hamburger && e.target != navMenu){
-        hamburger.classList.remove('hamburger-active');
-        navMenu.classList.add('hidden');
-    }
+// window.addEventListener('click', function(e){
+//     if(e.target != hamburger && e.target != navMenu){
+//         hamburger.classList.remove('hamburger-active');
+//         navMenu.classList.add('hidden');
+//     }
 
-} );
+// } );
 
 //  balik
 const balik = document.querySelector('#balik');
