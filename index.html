@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>porto</title>
+    <link rel="stylesheet" href="dist/output.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+
+<body class="">
+    <!-- header -->
+    <header class="absolute bg-transparent top-0 left-0 w-full flex items-center z-10  ">
+        <div class="container  ">
+            <div class="flex items-center justify-between relative">
+                <div class="mt-2">
+
+                    <div class="flex flex-shrink-0 items-center">
+                        <img class="hidden h-14 w-auto lg:block" src="dist/img/Logo.png" alt="logo">
+                        <img class="block h-14 w-auto lg:hidden" src="dist/img/Logo.png" alt="logo">
+                    </div>
+                </div>
+                <div class="flex items-center px-10 lg:px-2">
+                    <div id="hamburger" name="hamburger" type="button" class="block lg:hidden absolute right-10">
+                        <span class=" hamburger-line transition duration-300
+                        ease-in-out origin-top-left "></span>
+                        <span class="hamburger-line transition duration-300
+                        ease-in-out"></span>
+                        <span class="hamburger-line  origin-bottom-left transition duration-300
+                        ease-in-out"></span>
+                    </div>
+                    <nav id="nav-menu"
+                        class="hidden absolute py-5  bg-white
+                    shadow-lg rounded-lg lg:shadow-none lg:rounded-none max-w-[250px] lg:w-full right-4 top-full lg:block lg:static lg:bg-transparent lg:max-w-full">
+                        <ul class="block lg:flex ">
+
+                            <li class="group">
+                                <a href="#home "
+                                    class="text-black text-sm hover:text-primary transition duration-300 py-2 mx-4 flex">Home</a>
+                            </li>
+                            <li class="group">
+                                <a href="#about "
+                                    class="text-black text-sm hover:text-primary transition duration-300 py-2 mx-4 flex">About
+                                    Me</a>
+                            </li>
+                            <li class="group">
+                                <a href="#portofolio"
+                                    class="text-black text-sm hover:text-primary transition duration-300 py-2 mx-4 flex ">Portofolio</a>
+                            </li>
+                            <li class="group">
+                                <a href="#contact"
+                                    class="text-black text-sm hover:text-primary transition duration-300 py-2 mx-4 flex ">Contact</a>
+                            </li>
+                            <li class="flex items-center">
+                                <div class="flex mx-4">
+                                    <span class="mr-2 text-sm text-black">Light</span>
+                                    <input type="checkbox" class="hidden" id="toggle">
+                                    <label for="toggle">
+                                        <div
+                                            class="flex h-5 w-9 cursor-pointer items-center rounded-full bg-slate-500 p-1">
+                                            <div
+                                                class="toggle-circle h-4 w-4 rounded-full bg-white transition duration-300 ease-in-out">
+                                            </div>
+                                        </div>
+                                    </label>
+                                    <span class="dark ml-2 text-sm text-black ">Dark</span>
+                                </div>
+                            </li>
+
+
+                        </ul>
+                    </nav>
+
+                </div>
+
+            </div>
+        </div>
+
+
+
+
+    </header>
+    <!-- header -->
+    <!-- main -->
+    <section id="home" class="flex justify-center h-screen overflow-hidden bg-slate-100 ">
+        <div class="container">
+            <div class="relative left-44  w-full max-w-lg">
+                <div
+                    class="absolute top-0 -right-40 w-96 h-96 bg-purple-300 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob">
+                </div>
+                <div
+                    class="absolute top-28 -right-80 w-96 h-96 bg-yellow-300 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-2000">
+                </div>
+                <div
+                    class="absolute -bottom-8 left-96 w-96 h-96 bg-pink-300 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-4000">
+                </div>
+
+            </div>
+            <div><img src="./dist/img/home copy.png" alt=""
+                    class="absolute bottom-0 right-0 left-0 mx-auto object-cover" data-aos="fade-up"
+                    data-aos-duration="1500">
+
+            </div>
+            <div class="absolute lg:pt-20  left-5 sm:top-52 sm:left-10  text-7xl md:left-1/4 md:text-6xl lg:left-5 xl:left-48 xl:text-7xl font-bold "
+                data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="200">
+                <span class="text-dark font-extrabold">Freelance</span>
+                <p id="skill" class="text-yellow-400 font-semibold font-sans"></p>
+            </div>
+            <div class="hidden lg:flex flex-col rounded-md shadow-lg shadow-indigo-200 absolute top-0 bottom-0 m-auto right-10 bg-white p-6 h-fit w-1/3 "
+                data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="100">
+                <h1 class="font-bold mb-2 text-3xl">Hi, I'm Gopal</h1>
+                <p class="mb-4">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Vitae, consequatur sunt animi eius quibusdam ab odit non sed
+                    mollitia sit amet, aspernatur esse alias repellat molestiae
+                    voluptatum, quaerat sequi. Labore, laudantium? Similique?</p>
+                <a href="#contact" class="py-2 p-3  text-white bg-indigo-600 w-fit rounded-2xl">Hire Me</a>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- main -->
+    <!-- About -->
+    <section id="about" class="bg-slate-100  px-10">
+        <div class="container mx-auto py-40  flex flex-col lg:flex-row gap-20">
+            <!-- left -->
+            <div class="relative">
+
+                <div class=" overflow-hidden ">
+                    <img class="w-[32rem]" src="./dist/img/about.png" alt="" data-aos="fade-up"
+                        data-aos-duration="1500">
+
+                </div>
+            </div>
+
+            <!-- right -->
+            <div class="my-auto flex-col pt-20 gap-3" data-aos="fade-left" data-aos-duration="1500"
+                data-aos-delay="500">
+                <h1 class="text-indigo-600 font-sans font-bold text-xl mb-4">About Me</h1>
+                <h1 class="text-3xl font-light mb-2">Everythings </h1>
+                <h1 class="text-3xl font-light mb-2">is Moments </h1>
+                <p class="text-gray-400 mb-4">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi excepturi
+                    recusandae possimus ut dicta modi.</p>
+                <h2 class="text-gray-700 font-medium mb-2">HTML</h2>
+                <div class="w-full bg-gray-200 h-1.5 rounded-md mb-4">
+                    <div class="w-11/12 bg-indigo-800 h-1.5 rounded-md">
+
+                    </div>
+                </div>
+                <h2 class="text-gray-700 font-medium mb-2">Figma</h2>
+                <div class="w-full bg-gray-200 h-1.5 rounded-md mb-4">
+                    <div class="w-full bg-indigo-800 h-1.5 rounded-md">
+
+                    </div>
+                </div>
+                <h2 class="text-gray-700 font-medium mb-2">Adobe Photoshop</h2>
+                <div class="w-full bg-gray-200 h-1.5 rounded-md mb-4">
+                    <div class="w-10/12 bg-indigo-800 h-1.5 rounded-md">
+
+                    </div>
+                </div>
+                <h2 class="text-gray-700 font-medium mb-2">Adobe Lightroom</h2>
+                <div class="w-full bg-gray-200 h-1.5 rounded-md mb-4">
+                    <div class="w-full bg-indigo-800 h-1.5 rounded-md">
+
+                    </div>
+                </div>
+                <h2 class="text-gray-700 font-medium mb-2">Adobe Premier Pro</h2>
+                <div class="w-full bg-gray-200 h-1.5 rounded-md ">
+                    <div class="w-10/12 bg-indigo-800 h-1.5 rounded-md">
+
+                    </div>
+                </div>
+
+
+            </div>
+
+        </div>
+    </section>
+    <!-- about end -->
+    <!-- portofolio -->
+    <section id="portofolio" class="py-20 bg-slate-100">
+        <div class="container">
+
+
+        </div>
+    </section>
+    <!-- portofolio end -->
+
+
+    <!-- Back To Start -->
+    <a href="#home"
+    class="fixed hidden justify-center items-center z-[9999] bottom-4 right-4 rounded-full h-14 w-14 bg-indigo-600 p-4 hover:animate-pulse transition duration-300 ease-in-out"
+    id="to-top">
+    <span class="block w-5 h-5 border-t-2 border-l-2 rotate-45 mt-2"></span>
+</a>
+
+<!-- Back To Start end -->
+    <script src="dist/script.js"></script>
+    <script src="dist/autotyping.js"></script>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
