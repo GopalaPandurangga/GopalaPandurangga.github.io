@@ -83,7 +83,7 @@ var AutoTyping = function (e) {
     }
 }]).default;
 
-const exampleText = ['Developer', 'UI/UX Designer', 'Photographer', 'Videographer'];
+const exampleText = ['Web Developer', 'UI/UX Designer', 'Photographer', 'Videographer'];
     const exampleTyping = new AutoTyping('#skill', exampleText, {
         typeSpeed: 50,
         deleteSpeed: 50,
