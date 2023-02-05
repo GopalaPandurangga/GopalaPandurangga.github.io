@@ -34,25 +34,38 @@
                     </div>
                     <nav id="nav-menu"
                         class="hidden absolute py-5  bg-white
-                    shadow-lg rounded-lg lg:shadow-none lg:rounded-none max-w-[250px] lg:w-full right-4 top-full lg:block lg:static lg:bg-transparent lg:max-w-full">
+                    shadow-lg rounded-lg lg:shadow-none lg:rounded-none max-w-[250px] lg:w-full right-4 top-full lg:block lg:static lg:bg-transparent dark:bg-dark dark:shadow-slate-500 lg:dark:bg-transparent  lg:max-w-full z-10">
                         <ul class="block lg:flex ">
 
                             <li class="group">
                                 <a href="#about "
-                                    class="text-black text-sm hover:text-primary transition duration-300 py-2 mx-4 flex">About
+                                    class="text-black dark:text-white text-sm hover:text-primary transition duration-300 py-2 mx-4 flex">About
                                     Me</a>
                             </li>
                             <li class="group">
                                 <a href="#service "
-                                    class="text-black text-sm hover:text-primary transition duration-300 py-2 mx-4 flex">Service</a>
+                                    class="text-black dark:text-white text-sm hover:text-primary transition duration-300 py-2 mx-4 flex">Service</a>
                             </li>
                             <li class="group">
                                 <a href="#portofolio"
-                                    class="text-black text-sm hover:text-primary transition duration-300 py-2 mx-4 flex ">Portofolio</a>
+                                    class="text-black dark:text-white text-sm hover:text-primary transition duration-300 py-2 mx-4 flex ">Portofolio</a>
                             </li>
                             <li class="group">
                                 <a href="#contact"
-                                    class="text-black text-sm hover:text-primary transition duration-300 py-2 mx-4 flex ">Contact</a>
+                                    class="text-black dark:text-white text-sm hover:text-primary transition duration-300 py-2 mx-4 flex ">Contact</a>
+                            </li>
+                            <li class="flex items-center">
+                                <div class="flex mx-4">
+                                    <span class="mr-2 text-sm text-black dark:text-white">Light</span>
+                                    <input type="checkbox" class="hidden" id="toggle">
+                                    <label for="toggle">
+                                        <div class="flex h-5 w-9 cursor-pointer items-center rounded-full bg-slate-500 p-1">
+                                            <div class="toggle-circle h-4 w-4 rounded-full bg-white transition duration-300 ease-in-out">
+                                            </div>
+                                        </div>
+                                    </label>
+                                    <span class="ml-2 text-sm text-black dark:text-white dark ">Dark</span>
+                                </div>
                             </li>
 
 
@@ -71,23 +84,23 @@
     </header>
     <!-- header -->
     <!-- Hero-->
-    <section id="home" class=" bg-gradient-to-b from-indigo-100 to-slate-100 sm:pt-10 lg:py-40 ">
+    <section id="home" class=" bg-gradient-to-b from-indigo-100 to-slate-100 sm:pt-10 lg:py-40 dark:bg-gradient-to-b dark:from-gray-400 dark:to-dark ">
         <div class="container ">
             <div class=" flex flex-col-reverse lg:flex-row text-center lg:text-left">
                 <div class="sm:w-full self-center md:flex-1 md:mr-10  sm:pt-0 lg:pt-20 lg:w-1/2">
-                    <div class=" sm:pt-5 lg:pt-20 sm:text-5xl  md:text-6xl lg:left-5  xl:text-7xl font-bold "
+                    <div class=" pt-5 lg:pt-20 text-5xl  md:text-6xl lg:left-5  xl:text-7xl font-bold "
                         data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="200">
-                        <span class="text-dark font-extrabold">Freelance</span>
+                        <span class="text-dark dark:text-white font-extrabold">Freelance</span>
                         <p id="skill" class="text-yellow-400 font-semibold font-sans"></p>
                     </div>
                     <div data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="100">
-                        <p class="font-pt-serif md:text-xl font-normal lg:text-left sm:text-base sm:text-center mb-10">
-                            <h1 class="font-bold mb-2 text-3xl">Hi, I'm Gopal</h1>
-                            <p class="mb-4">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                        <p class="dark:text-white font-pt-serif md:text-xl font-normal lg:text-left sm:text-base sm:text-center mb-10">
+                            <h1 class="dark:text-white font-bold mb-2 text-3xl">Hi, I'm Gopal</h1>
+                            <p class="dark:text-white mb-4">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                                 Vitae, consequatur sunt animi eius quibusdam ab odit non sed
                                 mollitia sit amet, aspernatur esse alias repellat molestiae
                                 voluptatum, quaerat sequi. Labore, laudantium? Similique?</p>
-                            <div class="flex mt-4 space-x-6 lg:justify-start sm:justify-center  md:mt-0">
+                            <div class="flex mt-4 space-x-6 lg:justify-start justify-center  md:mt-0">
                                 <a href="#contact"
                                     class="py-2 p-3  text-white bg-indigo-600 hover:bg-indigo-500 w-fit rounded-2xl transition duration-300 ">Hire
                                     Me</a>
@@ -135,7 +148,7 @@
 
 
     <!-- About -->
-    <section id="about" class="bg-slate-100  px-10">
+    <section id="about" class="bg-slate-100 dark:bg-dark px-10">
         <div class="container mx-auto py-40  flex flex-col lg:flex-row gap-20">
             <!-- left -->
             <div class="relative">
@@ -151,35 +164,35 @@
             <div class="my-auto flex-col pt-20 gap-3" data-aos="fade-left" data-aos-duration="1500"
                 data-aos-delay="500">
                 <h1 class="text-indigo-600 font-sans font-bold text-xl mb-4">About Me</h1>
-                <h1 class="text-3xl font-light mb-2">Everythings </h1>
-                <h1 class="text-3xl font-light mb-2">is Moments </h1>
+                <h1 class="text-3xl font-light mb-2 dark:text-white">Everythings </h1>
+                <h1 class="text-3xl font-light mb-2 dark:text-white">is Moments </h1>
                 <p class="text-gray-400 mb-4">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi excepturi
                     recusandae possimus ut dicta modi.</p>
-                <h2 class="text-gray-700 font-medium mb-2">HTML</h2>
+                <h2 class="text-gray-700 dark:text-gray-100 font-medium mb-2">HTML</h2>
                 <div class="w-full bg-gray-200 h-1.5 rounded-md mb-4">
                     <div class="w-11/12 bg-indigo-800 h-1.5 rounded-md">
 
                     </div>
                 </div>
-                <h2 class="text-gray-700 font-medium mb-2">Figma</h2>
+                <h2 class="text-gray-700 dark:text-gray-100 font-medium mb-2">Figma</h2>
                 <div class="w-full bg-gray-200 h-1.5 rounded-md mb-4">
                     <div class="w-full bg-indigo-800 h-1.5 rounded-md">
 
                     </div>
                 </div>
-                <h2 class="text-gray-700 font-medium mb-2">Adobe Photoshop</h2>
+                <h2 class="text-gray-700 dark:text-gray-100 font-medium mb-2">Adobe Photoshop</h2>
                 <div class="w-full bg-gray-200 h-1.5 rounded-md mb-4">
                     <div class="w-10/12 bg-indigo-800 h-1.5 rounded-md">
 
                     </div>
                 </div>
-                <h2 class="text-gray-700 font-medium mb-2">Adobe Lightroom</h2>
+                <h2 class="text-gray-700 dark:text-gray-100 font-medium mb-2">Adobe Lightroom</h2>
                 <div class="w-full bg-gray-200 h-1.5 rounded-md mb-4">
                     <div class="w-full bg-indigo-800 h-1.5 rounded-md">
 
                     </div>
                 </div>
-                <h2 class="text-gray-700 font-medium mb-2">Adobe Premiere Pro</h2>
+                <h2 class="text-gray-700 dark:text-gray-100 font-medium mb-2">Adobe Premiere Pro</h2>
                 <div class="w-full bg-gray-200 h-1.5 rounded-md ">
                     <div class="w-10/12 bg-indigo-800 h-1.5 rounded-md">
 
@@ -195,33 +208,33 @@
 
 
     <!-- service -->
-    <section id="service" class=" bg-slate-100">
+    <section id="service" class=" bg-slate-100 dark:bg-dark">
         <div class="container mx-auto py-40">
             <div class="flex flex-col items-center gap-3">
                 <h1 class="text-indigo-600 font-sans font-bold text-xl mb-4">Service</h1>
-                <h1 class=" font-sans font-semibold text-3xl ">What do I Ofer?</h1>
-                <p class="lg:w-1/2 text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam minus quia
+                <h1 class=" font-sans font-semibold text-3xl dark:text-white ">What do I Ofer?</h1>
+                <p class="lg:w-1/2 text-center dark:text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam minus quia
                     molestias nisi beatae quisquam!.</p>
             </div>
             <div class="flex flex-wrap pt-20">
                 <div class="w-full md:w-4/12 shadow-xl rounded-lg p-5 flex flex-col gap-6">
                     <img class="w-10" src="dist/img/moon.png" alt="">
-                    <h1 class="font-bold font-serif">UI/UX Designer</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At veritatis exercitationem
+                    <h1 class="font-bold font-serif dark:text-white">UI/UX Designer</h1>
+                    <p class="dark:text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. At veritatis exercitationem
                         inventore dolores enim quaerat ad consectetur laudantium laboriosam animi?</p>
                     <a class="text-indigo-600 font-sans font-bold text-base" href="">Read More</a>
                 </div>
                 <div class="w-full md:w-4/12 shadow-xl rounded-lg p-5 flex flex-col gap-6">
                     <img class="w-10" src="dist/img/moon.png" alt="">
-                    <h1 class="font-bold font-serif">Web Developer</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At veritatis exercitationem
+                    <h1 class="font-bold font-serif dark:text-white">Web Developer</h1>
+                    <p class="dark:text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. At veritatis exercitationem
                         inventore dolores enim quaerat ad consectetur laudantium laboriosam animi?</p>
                     <a class="text-indigo-600 font-sans font-bold text-base" href="">Read More</a>
                 </div>
                 <div class="w-full md:w-4/12 shadow-xl rounded-lg p-5 flex flex-col gap-6">
                     <img class="w-10" src="dist/img/moon.png" alt="">
-                    <h1 class="font-bold font-serif">Photographer-Videographer</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At veritatis exercitationem
+                    <h1 class="font-bold font-serif dark:text-white">Photographer-Videographer</h1>
+                    <p class="dark:text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. At veritatis exercitationem
                         inventore dolores enim quaerat ad consectetur laudantium laboriosam animi?</p>
                     <a class="text-indigo-600 font-sans font-bold text-base" href="">Read More</a>
                 </div>
@@ -234,25 +247,25 @@
     <!-- service end -->
 
     <!-- portofolio -->
-    <section id="portofolio" class="bg-slate-100">
+    <section id="portofolio" class="bg-slate-100 dark:bg-dark">
         <div class="container items-center justify-center mx-auto py-36">
             <div class="flex flex-col items-center gap-3">
                 <h1 class="text-indigo-600 font-sans font-bold text-xl mb-4">Portofolio</h1>
-                <h1 class=" font-sans font-semibold text-3xl ">The Project That I've Done</h1>
-                <p class="lg:w-1/2 text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam minus quia
+                <h1 class=" font-sans font-semibold text-3xl text-center dark:text-white ">The Project That I've Done</h1>
+                <p class="lg:w-1/2 text-center dark:text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam minus quia
                     molestias nisi beatae quisquam!.</p>
             </div>
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 pt-20">
                 <div class="group relative items-center justify-center overflow-hidden cursor-pointer  hover:shadow-xl rounded-lg transition-shadow">
                     <div class="h-72 w-full relative overflow-hidden  ">
-                        <a href="#service"><img class="h-72 w-full object-cover object-center group-hover:scale-110 transition-transform duration-300" src="dist/img/kecak ui.png" alt=""></a><img class="h-72 w-full object-cover object-center group-hover:scale-110 transition-transform duration-300" src="dist/img/kecak ui.png" alt="">
+                        <img class="h-72 w-full object-cover object-center group-hover:scale-110 transition-transform duration-300" src="dist/img/kecak ui.png" alt="">
                         
                     </div>
-                    <div class="absolute inset-0 bg-gradient-to-b from-transparent via-transparent sm:to-dark lg:to-dark/30 group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70  "></div>
-                    <div class="absolute inset-0 flex flex-col items-start justify-start translate-y-[72.5%] lg:items-center lg:justify-center px-4 lg:px-9 lg:text-center lg:translate-y-[75%] lg:group-hover:translate-y-10 transition-all duration-300">
+                    <div class="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-dark lg:to-dark/30 group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70  "></div>
+                    <div class="absolute inset-0 flex flex-col items-start justify-start translate-y-[65%] lg:items-center lg:justify-center px-4 lg:px-9 lg:text-center lg:translate-y-[75%] lg:group-hover:translate-y-10 transition-all duration-300">
                         <h1 class="text-base lg:text-2xl text-white font-bold">Kecak Fire and Trance Dance</h1>
-                        <p class="text-sm lg:text-lg text-gray-100 font-normal mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, excepturi.</p>
-                        <a href="" class="rounded-full sm:hidden lg:flex bg-dark py-2 px-3.5 text-sm capitalize text-white">See More</a>
+                        <p class="text-sm lg:text-lg text-gray-100 font-normal mb-2 lg:mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, excepturi.</p>
+                        <a href="" class="rounded-full  lg:bg-dark lg:py-2 lg:px-3.5 text-sm capitalize text-white font-bold">See More</a>
                     </div>
                 </div>
                 <div class="group relative items-center justify-center overflow-hidden cursor-pointer  hover:shadow-xl rounded-lg transition-shadow">
@@ -260,11 +273,11 @@
                         <img class="h-72 w-full object-cover object-center group-hover:scale-110 transition-transform duration-300" src="dist/img/Travelmag.png" alt="">
                         
                     </div>
-                    <div class="absolute inset-0 bg-gradient-to-b from-transparent via-transparent sm:to-dark lg:to-dark/30 group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70    "></div>
-                    <div class="absolute inset-0 flex flex-col items-start justify-start translate-y-[72.5%] lg:items-center lg:justify-center px-4 lg:px-9 lg:text-center lg:translate-y-[75%] lg:group-hover:translate-y-10 transition-all duration-300">
+                    <div class="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-dark lg:to-dark/30 group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70    "></div>
+                    <div class="absolute inset-0 flex flex-col items-start justify-start translate-y-[65%] lg:items-center lg:justify-center px-4 lg:px-9 lg:text-center lg:translate-y-[75%] lg:group-hover:translate-y-10 transition-all duration-300">
                         <h1 class="text-base lg:text-2xl text-white font-bold">Travelmag Mobile Apps UI</h1>
-                        <p class="text-sm lg:text-lg text-gray-100 font-normal mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, excepturi.</p>
-                        <a href="" class="rounded-full sm:hidden lg:flex bg-dark py-2 px-3.5 text-sm capitalize text-white">See More</a>
+                        <p class="text-sm lg:text-lg text-gray-100 font-normal mb-2 lg:mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, excepturi.</p>
+                        <a href="" class="rounded-full  lg:bg-dark lg:py-2 lg:px-3.5 text-sm capitalize text-white font-bold">See More</a>
                     </div>
                 </div>
                 <div class="group relative items-center justify-center overflow-hidden cursor-pointer  hover:shadow-xl rounded-lg transition-shadow">
@@ -272,11 +285,11 @@
                         <img class="h-72 w-full object-cover object-center group-hover:scale-110 transition-transform duration-300" src="dist/img/music.png" alt="">
                         
                     </div>
-                    <div class="absolute inset-0 bg-gradient-to-b from-transparent via-transparent sm:to-dark lg:to-dark/30 group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70    "></div>
-                    <div class="absolute inset-0 flex flex-col items-start justify-start translate-y-[72.5%] lg:items-center lg:justify-center px-4 lg:px-9 lg:text-center lg:translate-y-[75%] lg:group-hover:translate-y-10 transition-all duration-300">
+                    <div class="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-dark lg:to-dark/30 group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70    "></div>
+                    <div class="absolute inset-0 flex flex-col items-start justify-start translate-y-[65%] lg:items-center lg:justify-center px-4 lg:px-9 lg:text-center lg:translate-y-[75%] lg:group-hover:translate-y-10 transition-all duration-300">
                         <h1 class="text-base lg:text-2xl text-white font-bold">Youmi Mobile Apps UI</h1>
-                        <p class="text-sm lg:text-lg text-gray-100 font-normal mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, excepturi.</p>
-                        <a href="" class="rounded-full sm:hidden lg:flex bg-dark py-2 px-3.5 text-sm capitalize text-white">See More</a>
+                        <p class="text-sm lg:text-lg text-gray-100 font-normal mb-2 lg:mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, excepturi.</p>
+                        <a href="" class="rounded-full  lg:bg-dark lg:py-2 lg:px-3.5 text-sm capitalize text-white font-bold">See More</a>
                     </div>
                 </div>
                 <div class="group relative items-center justify-center overflow-hidden cursor-pointer  hover:shadow-xl rounded-lg transition-shadow">
@@ -284,11 +297,11 @@
                         <img class="h-72 w-full object-cover object-center group-hover:scale-110 transition-transform duration-300" src="dist/img/N&Y.JPG" alt="">
                         
                     </div>
-                    <div class="absolute inset-0 bg-gradient-to-b from-transparent via-transparent sm:to-dark lg:to-dark/30 group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70    "></div>
-                    <div class="absolute inset-0 flex flex-col items-start justify-start translate-y-[72.5%] lg:items-center lg:justify-center px-4 lg:px-9 lg:text-center lg:translate-y-[75%] lg:group-hover:translate-y-10 transition-all duration-300">
+                    <div class="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-dark lg:to-dark/30 group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70    "></div>
+                    <div class="absolute inset-0 flex flex-col items-start justify-start translate-y-[65%] lg:items-center lg:justify-center px-4 lg:px-9 lg:text-center lg:translate-y-[75%] lg:group-hover:translate-y-10 transition-all duration-300">
                         <h1 class="text-base lg:text-2xl text-white font-bold">N & Y Wedding Documentation</h1>
-                        <p class="text-sm lg:text-lg text-gray-100 font-normal mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, excepturi.</p>
-                        <a href="" class="rounded-full sm:hidden lg:flex bg-dark py-2 px-3.5 text-sm capitalize text-white">See More</a>
+                        <p class="text-sm lg:text-lg text-gray-100 font-normal mb-2 lg:mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, excepturi.</p>
+                        <a href="" class="rounded-full  lg:bg-dark lg:py-2 lg:px-3.5 text-sm capitalize text-white font-bold">See More</a>
                     </div>
                 </div>
                 <div class="group relative items-center justify-center overflow-hidden cursor-pointer  hover:shadow-xl rounded-lg transition-shadow">
@@ -296,11 +309,11 @@
                         <img class="h-72 w-full object-cover object-center group-hover:scale-110 transition-transform duration-300" src="dist/img/Metatah.JPG" alt="">
                         
                     </div>
-                    <div class="absolute inset-0 bg-gradient-to-b from-transparent via-transparent sm:to-dark lg:to-dark/30 group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70    "></div>
-                    <div class="absolute inset-0 flex flex-col items-start justify-start translate-y-[72.5%] lg:items-center lg:justify-center px-4 lg:px-9 lg:text-center lg:translate-y-[75%] lg:group-hover:translate-y-10 transition-all duration-300">
+                    <div class="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-dark lg:to-dark/30 group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70    "></div>
+                    <div class="absolute inset-0 flex flex-col items-start justify-start translate-y-[65%] lg:items-center lg:justify-center px-4 lg:px-9 lg:text-center lg:translate-y-[75%] lg:group-hover:translate-y-10 transition-all duration-300">
                         <h1 class="text-base lg:text-2xl text-white font-bold">Metatah Ceremony</h1>
-                        <p class="text-sm lg:text-lg text-gray-100 font-normal mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, excepturi.</p>
-                        <a href="" class="rounded-full sm:hidden lg:flex bg-dark py-2 px-3.5 text-sm capitalize text-white">See More</a>
+                        <p class="text-sm lg:text-lg text-gray-100 font-normal mb-2 lg:mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, excepturi.</p>
+                        <a href="" class="rounded-full  lg:bg-dark lg:py-2 lg:px-3.5 text-sm capitalize text-white font-bold">See More</a>
                     </div>
                 </div>
                 <div class="group relative items-center justify-center overflow-hidden cursor-pointer  hover:shadow-xl rounded-lg transition-shadow">
@@ -308,11 +321,11 @@
                         <img class="h-72 w-full object-cover object-center group-hover:scale-110 transition-transform duration-300" src="dist/img/J&T.JPG" alt="">
                         
                     </div>
-                    <div class="absolute inset-0 bg-gradient-to-b from-transparent via-transparent sm:to-dark lg:to-dark/30 group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70    "></div>
-                    <div class="absolute inset-0 flex flex-col items-start justify-start translate-y-[72.5%] lg:items-center lg:justify-center px-4 lg:px-9 lg:text-center lg:translate-y-[75%] lg:group-hover:translate-y-10 transition-all duration-300">
+                    <div class="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-dark lg:to-dark/30 group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70    "></div>
+                    <div class="absolute inset-0 flex flex-col items-start justify-start translate-y-[65%] lg:items-center lg:justify-center px-4 lg:px-9 lg:text-center lg:translate-y-[75%] lg:group-hover:translate-y-10 transition-all duration-300">
                         <h1 class="text-base lg:text-2xl text-white font-bold">J & T Wedding Documentation</h1>
-                        <p class="text-sm lg:text-lg text-gray-100 font-normal mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, excepturi.</p>
-                        <a href="" class="rounded-full sm:hidden lg:flex bg-dark py-2 px-3.5 text-sm capitalize text-white">See More</a>
+                        <p class="text-sm lg:text-lg text-gray-100 font-normal mb-2 lg:mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, excepturi.</p>
+                        <a href="" class="rounded-full  lg:bg-dark lg:py-2 lg:px-3.5 text-sm capitalize text-white font-bold">See More</a>
                     </div>
                 </div>
             </div>
@@ -338,6 +351,12 @@
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         AOS.init();
+    </script>
+
+    <script>
+        document.querySelector('#toggle').addEventListener('click', function(){
+        document.documentElement.classList.toggle('dark');
+        });
     </script>
 
 </body>

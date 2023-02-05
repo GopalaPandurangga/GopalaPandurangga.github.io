@@ -44,13 +44,18 @@ balik.addEventListener('click', function(){
 
 // darkmode toggle
 
-const checkbox = document.querySelector('#toggle');
-const html = document.querySelector('html');
+// const DarkToggle = document.querySelector('#dark-toggle');
+// const html = document.querySelector('html');
 
-checkbox.addEventListener('click', function ()
-{
-if (checkbox.checked) {
-    html.classList.add('dark')
+// DarkToggle.addEventListener('click', function() {
+//     if(DarkToggle.Checked){
+//         html.classList.add('dark');
+//     }
+//     else {
+//         html.classList.remove('dark');
+//     }
+// } );
 
-}  else html.classList.remove('dark');
-})
+// dark mode sesungguhnya
+
+
